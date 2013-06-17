@@ -37,6 +37,7 @@
 (require 'em-prompt)
 (require 'esh-mode)
 
+;;;###autoload
 (defun setup-eshell-buf-stack ()
   "Setup the buffer stack for Eshell."
   (interactive)
@@ -44,13 +45,16 @@
             'eshell-pop-stack))
 
 (defvar-local *eshell-buffer-stack* nil
-  "The buffer stack for eshell")
+  "The buffer stack for Eshell")
 
+;;;###autoload
 (defun eshell-pop-stack ()
   "Pop a command from the buffer stack."
+  (interactive)
   (when *eshell-buffer-stack*
     (insert (pop *eshell-buffer-stack*))))
 
+;;;###autoload
 (defun eshell-push-command (cmd)
   "Push CMD to the buffer stack."
   (interactive
