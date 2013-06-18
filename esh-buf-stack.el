@@ -34,7 +34,6 @@
 ;; and after executing another command, you can see the top of the stack poped.
 
 ;;; Code:
-(require 'eshell)
 (require 'em-prompt)
 (require 'esh-mode)
 
