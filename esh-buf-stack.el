@@ -27,13 +27,14 @@
 ;;     (require 'esh-buf-stack)
 ;;     (setup-eshell-buf-stack)
 ;;     (add-hook 'eshell-mode-hook
-;;               (local-set-key
-;;                (kbd "M-q") 'eshell-push-command))
+;;               (lambda ()
+;;                 (local-set-key
+;;                  (kbd "M-q") 'eshell-push-command)))
 ;; You can push the current command to the buffer stack by using M-q,
 ;; and after executing another command, you can see the top of the stack poped.
 
 ;;; Code:
-
+(require 'eshell)
 (require 'em-prompt)
 (require 'esh-mode)
 
