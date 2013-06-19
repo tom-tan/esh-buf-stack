@@ -1,4 +1,4 @@
-;;; esh-cmd-stack --- Add a buffer stack feature to Eshell
+;;; esh-buf-stack --- Add a buffer stack feature to Eshell
 
 ;; Copyright (C) 2013  by Tomoya Tanjo
 
