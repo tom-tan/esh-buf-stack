@@ -1,4 +1,4 @@
-;;; esh-buf-stack --- Add a buffer stack feature to Eshell
+;;; esh-buf-stack.el --- Add a buffer stack feature to Eshell
 
 ;; Copyright (C) 2013  by Tomoya Tanjo
 
