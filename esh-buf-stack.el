@@ -1,6 +1,6 @@
 ;;; esh-buf-stack.el --- Add a buffer stack feature to Eshell
 
-;; Copyright (C) 2013  by Tomoya Tanjo
+;; Copyright (C) 2013, 2014  by Tomoya Tanjo
 
 ;; Author: Tomoya Tanjo <ttanjo@gmail.com>
 ;; Keywords: eshell, extensions
