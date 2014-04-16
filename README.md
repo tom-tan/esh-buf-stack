@@ -3,6 +3,8 @@
 This library adds a buffer stack feature to Eshell.
 It is inspired by the buffer stack in Zsh.
 
+You can install it by using `package-install` via [MELPA](http://melpa.milkbox.net/).
+
 To use this package, add these lines to your `.emacs` file:
 ```elisp
     (require 'esh-buf-stack)
